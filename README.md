@@ -1,47 +1,65 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19750679&assignment_repo_type=AssignmentRepo)
-# MongoDB Fundamentals Assignment
 
-This assignment focuses on learning MongoDB fundamentals including setup, CRUD operations, advanced queries, aggregation pipelines, and indexing.
+---
 
-## Assignment Overview
+## ✅ Tasks Completed
 
-You will:
-1. Set up a MongoDB database
-2. Perform basic CRUD operations
-3. Write advanced queries with filtering, projection, and sorting
-4. Create aggregation pipelines for data analysis
-5. Implement indexing for performance optimization
+### 🧩 Task 1: Insert Sample Books
+- Run `insert_books.js` using Node.js to insert 12 book records.
+- MongoDB Database: `plp_bookstore`
+- Collection: `books`
+- ✅ **Screenshots:** `task1_insert_books-1.png`, `task1_insert_books-2.png`,`task1_insert_books-3.png`
 
-## Getting Started
+---
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install MongoDB locally or set up a MongoDB Atlas account
-4. Run the provided `insert_books.js` script to populate your database
-5. Complete the tasks in the assignment document
+### 📚 Task 2: CRUD Operations
 
-## Files Included
+| Operation | Description                            |
+|----------|----------------------------------------|
+| Read     | View all books using `find()`          |
+| Create   | Add a new book using `insertOne()`     |
+| Update   | Modify a book using `updateOne()`      |
+| Delete   | Remove a book using `deleteOne()`      |
 
-- `Week1-Assignment.md`: Detailed assignment instructions
-- `insert_books.js`: Script to populate your MongoDB database with sample book data
+✅ **Screenshots:** `task2_read_books.png`  
+✅ All queries included in `queries.js`
 
-## Requirements
+---
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- MongoDB Shell (mongosh) or MongoDB Compass
+### 🔍 Task 3: Advanced Queries
+- Filter books by genre, year, author, and more using conditions.
 
-## Submission
+✅ **Screenshots:**  
+- `task3_advanced_1.png`  
+- `task3_advanced_2.png`
+- `task3_advanced_3.png`
+- `task3_advanced_4.png`
+- `task3_advanced_5.png`
+- `task3_advanced_6.png`
+---
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+### 📊 Task 4: Aggregation Pipelines
+- Use `$match`, `$group`, and `$sort` to generate reports.
 
-1. Complete all tasks in the assignment
-2. Add your `queries.js` file with all required MongoDB queries
-3. Include a screenshot of your MongoDB database
-4. Update the README.md with your specific setup instructions
+✅ **Screenshots:**
+- `task4_aggregation_1.png`
+- `task4_aggregation_2.png`
+- `task4_aggregation_3.png`
+---
 
-## Resources
+### ⚡ Task 5: Indexing (Bonus)
+- Create index on `author` field
+- Use `explain("executionStats")` to evaluate query performance
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+✅ **Screenshots:**
+- `task5_index_1.png`
+- `task5_index_2.png`
+- `task5_index_3.png`
+- `task5_index_4.png`
+- `task5_index_5.png`
+---
+
+## 🚀 How to Run
+
+### 1. Start MongoDB Server:
+```bash
+"C:\Program Files\MongoDB\Server\8.0\bin\mongod.exe"
